@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "angular": "1.6.4",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "pg": "^6.2.3"
   },
   "devDependencies": {
     "css-loader": "^0.28.4",

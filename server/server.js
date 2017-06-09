@@ -52,7 +52,9 @@ let Server = {
     start(port) {
         let Dispatcher = require('./dispatcher.js');
         let DispatcherPaths = require('./dispatch_paths.js');
-        let ClientFilePaths = require('./services/client_files_service/client_files_service.js')
+        let ClientFilePaths = require('./services/client_files_service/client_files_service.js');
+        let DatabaseService = require('./services/database/database_service.js');
+        DatabaseService.init();
         Dispatcher.init();
         ClientFilePaths.init();
 
