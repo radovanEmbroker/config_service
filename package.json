@@ -1,0 +1,26 @@
+{
+  "name": "configuration_service",
+  "version": "1.0.0",
+  "description": "\"Configuration service enables easy way to create, manage and deploy configurations.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Radovan",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.6.4",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "grunt": "1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-webpack": "^3.0.0",
+    "http": "0.0.0",
+    "httpdispatcher": "^1.0.0",
+    "style-loader": "0.18.2",
+    "webpack": "2.6.1",
+    "webpack-manifest-plugin": "^1.1.0"
+  }
+}

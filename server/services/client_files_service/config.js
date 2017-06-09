@@ -1,0 +1,3 @@
+{
+    "ClientPath": "../client"
+}
